@@ -277,6 +277,7 @@ header h1 {
 .three-columns {
   padding: 28px 0 0;
   flex-direction: column;
+  margin-bottom: 33px;
 }
 
 .contact {
@@ -325,10 +326,15 @@ footer {
     margin-left: 0;
   }
 
+  .navigation {
+    margin-top: 30px;
+  }
+
   .main-navigation {
     margin-top: 37px;
     width: 100%;
     display: block;
+    text-align: left;
   }
 
   .main-navigation a {
@@ -347,9 +353,8 @@ footer {
     border-bottom: 0;
   }
 
-
   .header-content {
-    margin-left: 0;
+    margin-left: 18px;
     margin-top: 0;
   }
 
@@ -362,19 +367,23 @@ footer {
   .main-content {
     padding: 36px 10px 0;
     flex-direction: row;
+    margin-bottom: 25px;
+  }
+
+
+  .main-content div {
+    width: 390px;
   }
 
   .main-content div:first-child {
-    margin-right: 20px;
+    margin-right: 37px;
   }
 
   .main-content div:last-child {
     margin-top: 0;
   }
 
-  .main-content {
-    margin-bottom: 25px;
-  }
+  
 
   .middle-img-section {
       margin: 0 auto;
@@ -387,6 +396,7 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     display: flex;
+    margin-bottom: 0;
   }
 
   .three-columns div {
@@ -418,6 +428,7 @@ footer {
   .facts {
     justify-content: center;
   }
+
 }
 
 
@@ -478,10 +489,6 @@ footer {
     padding: 50px 10px 0;    
     justify-content: space-between;
     flex-direction: row;
-  }
-
-  .main-content div {
-    width: 390px;
   }
 
   .main-content div:first-child {
