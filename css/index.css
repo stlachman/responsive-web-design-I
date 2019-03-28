@@ -147,33 +147,6 @@ h5 {
 p {
   line-height: 1.2;
 }
-.pt-50 {
-  padding-top: 50px;
-}
-.pd-50-0 {
-  padding: 50px 0;
-}
-.mg-50-0 {
-  margin: 50px 0;
-}
-.mg-50-0-20 {
-  margin: 50px 0 20px;
-}
-.ml-120 {
-  margin-left: 120px;
-}
-.ml-130 {
-  margin-left: 130px;
-}
-.mt-25 {
-  margin-top: 25px;
-}
-.mb-50 {
-  margin-bottom: 50px;
-}
-.mb-30 {
-  margin-bottom: 30px;
-}
 .flex {
   display: flex;
 }
@@ -344,6 +317,10 @@ header h1 {
 }
 .main-content {
   padding: 50px 10px 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #000;
 }
 @media (max-width: 800px) {
   .main-content {
@@ -381,6 +358,9 @@ header h1 {
 }
 .three-columns {
   padding: 50px 10px 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 800px) {
   .three-columns {
@@ -435,6 +415,7 @@ header h1 {
 /* Contact Section */
 .contact {
   padding: 50px 0 0;
+  border-top: 2px solid #000;
 }
 @media (max-width: 800px) {
   .contact {
@@ -498,6 +479,20 @@ footer {
   transform: translateX(-50%);
   width: 100%;
 }
+.btn-white {
+  background: #fff;
+  padding: 8px 25px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s all ease-in-out;
+}
+.btn-white:hover {
+  background: #d9d9d9;
+}
 /* Services  Page */
 .services-header-img {
   margin: 30px 0;
@@ -506,6 +501,9 @@ footer {
 }
 .text-md {
   font-size: 28px;
+}
+.services {
+  margin: 0 0 30px;
 }
 .service-cards {
   border-top: 2px solid #000;
@@ -527,20 +525,6 @@ footer {
 .card p {
   margin-bottom: 10px;
   line-height: 1.2;
-}
-.btn-white {
-  background: #fff;
-  padding: 8px 25px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #000;
-  transition: 0.2s all ease-in-out;
-}
-.btn-white:hover {
-  opacity: 0.75;
 }
 .facts {
   border-top: 2px solid #000;
