@@ -1,0 +1,96 @@
+/* Services  Page */
+
+.services-header-img {
+	margin: 30px 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.text-md {
+	font-size: 28px;
+}
+
+.services {
+  margin: 0 0 30px;
+}
+
+.service-cards {
+	.border-top();
+	padding: 50px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.card {
+	background: #eee;
+	padding: 25px;
+	border: 1.25px solid #000;
+}
+
+.service-cards .card {
+	flex: 0 0 100%;
+	margin-bottom: 30px;
+}
+
+.card p {
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+
+.facts {
+  .border-top();
+	padding: 40px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 85px;
+
+	@media @tablet {
+		justify-content: center;
+	}
+}
+
+.facts div {
+	width: 410px;
+}
+
+.services-info-img {
+	max-width: 100%;
+	height: auto;
+	@media @tablet {
+		margin: 30px 0 0;
+	}
+}
+
+.list-style-sq {
+	list-style: square;
+	padding-left: 20px;
+	margin-top: 25px;
+}
+
+.list-style-sq li {
+	margin-top: 15px;
+}
+
+.middle-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.service-cards .card {
+	flex: 0 0 47.75%;
+
+	@media @tablet {
+		flex: 0 0 100%;
+	}
+}
+
+.service-cards .card:nth-of-type(odd) {
+	margin-right: 30px;
+
+	@media @tablet {
+		margin-right: 0;
+	}
+}

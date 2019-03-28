@@ -1,0 +1,93 @@
+.main-content {
+  padding: 50px 10px 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  .border-top();
+
+  @media @tablet {
+    padding: 36px 10px 0;
+    margin-bottom: 25px;
+  }
+  @media @mobile {
+    flex-direction: column;
+    padding: 57px 0 0;
+  }
+}
+
+.main-content div {
+  width: 390px;
+  @media @mobile {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.main-content div:first-child {
+  margin-right: 34px;
+  @media @tablet {
+    margin-right: 20px;
+  }
+}
+
+.main-content div:last-child {
+  @media @tablet {
+    margin-right: 44px;
+  }
+}
+
+.three-columns {
+  padding: 50px 10px 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  @media @tablet {
+    padding: 30px 10px 0;
+    margin-bottom: 27px;
+    justify-content: flex-start;
+  }
+
+  @media @mobile {
+    padding: 28px 0 0;
+    flex-direction: column;
+  }
+}
+
+.three-columns div {
+  margin-right: 12px;
+  width: 270px;
+
+  @media @tablet {
+    margin-right: 42px;
+    width: 212px;
+  }
+
+  @media @mobile {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+}
+
+
+.three-columns div:last-child {
+  margin-right: 0;
+
+  @media @mobile {
+    margin-bottom: 5px;
+  }
+}
+
+.middle-img-section {
+  
+  @media @tablet {
+    margin: 0 auto;
+    max-width: 760px;
+  }
+  @media @mobile {
+    max-width: 460px;
+    margin: 50px auto 0;
+  }
+}
