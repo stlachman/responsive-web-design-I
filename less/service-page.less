@@ -1,0 +1,107 @@
+/* Services  Page */
+.services-header-img {
+	margin: 30px 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.text-md {
+	font-size: 28px;
+}
+
+.service-cards {
+	border-top: 2px solid #000;
+	padding: 50px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.card {
+	background: #eee;
+	padding: 25px;
+	border: 1.25px solid #000;
+}
+
+.service-cards .card {
+	flex: 0 0 100%;
+	margin-bottom: 30px;
+}
+
+.card p {
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+
+.btn-white {
+	background: #fff;
+	padding: 8px 25px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.2s all ease-in-out;
+}
+
+.btn-white:hover {
+	opacity: 0.75;
+}
+
+.facts {
+	border-top: 2px solid #000;
+	padding: 40px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 85px;
+
+	@media @tablet {
+		justify-content: center;
+	}
+}
+
+.facts div {
+	width: 410px;
+}
+
+.services-info-img {
+	max-width: 100%;
+	height: auto;
+	@media @tablet {
+		margin: 30px 0 0;
+	}
+}
+
+.list-style-sq {
+	list-style: square;
+	padding-left: 20px;
+	margin-top: 25px;
+}
+
+.list-style-sq li {
+	margin-top: 15px;
+}
+
+.middle-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.service-cards .card {
+	flex: 0 0 47.75%;
+
+	@media @tablet {
+		flex: 0 0 100%;
+	}
+}
+
+.service-cards .card:nth-of-type(odd) {
+	margin-right: 30px;
+
+	@media @tablet {
+		margin-right: 0;
+	}
+}
